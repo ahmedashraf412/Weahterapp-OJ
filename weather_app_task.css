@@ -1,0 +1,75 @@
+.appContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 0;
+    align-items: center;  
+    font-family: Arial, sans-serif;
+}
+
+.inputForm{
+    margin: 20px;
+}
+
+.inputForm button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: hsl(229, 57%, 60%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.inputForm input {
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid hsla(0, 0%, 20%, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.appData{
+    background: linear-gradient(180deg, hsl(210, 61%, 44%), hsl(219, 74%, 70%));
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    min-width: 350px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc{
+    color:white;
+    font-size: 3rem;
+    margin: 10px;
+}
+.temp{
+    color:white;
+    font-size: 3rem;
+    margin: 10px;
+}
+.humidity{
+    color:white;
+    font-size: 3rem;
+    margin: 10px;
+}
+.cityName{
+    font-size: 3.5rem;
+    font-weight: bold;
+    color:white;
+    margin-top: 10px;
+}
+
+.emoji{
+    font-size: 3rem;
+}
+
+.error{
+    color:white;
+    font-size: 3rem;
+    margin: 10px;
+}
+
